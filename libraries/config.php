@@ -3,7 +3,7 @@ if (!defined('LIBRARIES')) die("Error");
 
 /* Timezone */
 date_default_timezone_set('Asia/Ho_Chi_Minh');
-$code_api_rand = "4f35";
+$code_api_rand = "6667";
 /* Cấu hình coder */
 define('NN_MSHD', '1253517w');
 define('NN_AUTHOR', 'phuctai.nina@gmail.com');
@@ -36,7 +36,7 @@ $config = array(
         'name' => 'Điện Tử',
         'sectors' => 'dien-tu',
         'list' => '9',
-        'error-reporting' => true,
+        'error-reporting' => false,
         'secret' => '$nina@',
         'salt' => 'zRMjc%KvF',
         'debug-developer' => false,

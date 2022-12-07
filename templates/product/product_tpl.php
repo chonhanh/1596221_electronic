@@ -5,7 +5,12 @@
             <div class="box-Pos">
                 <div class="box-menu p-3 ">
                     <!-- Stores -->
-                    <?php if (in_array($sector['type'], array($config['website']['sectors'])) && !empty($stores)) { ?>
+                    <?php 
+                    for ($i = 0; $i < 10; $i++){ 
+                        $stores[$i+1]['namevi']=$faker->name;
+                        $stores[$i+1]['id']=$faker->randomDigit;
+                    }
+                    if (in_array($sector['type'], array($config['website']['sectors'])) && !empty($stores)) { ?>
                         <div class="block-stores mb-2">
                             <div class="block-label d-flex align-items-center justify-content-between mb-2">
                                 <div class="block-label-text">Danh sách cửa hàng <?= $func->get('sector-label') ?></div>
@@ -184,7 +189,16 @@
 
 <!-- Products -->
 <div class="block-products">
-    <?php if (!empty($products)) { ?>
+    <?php 
+    for($i=1;$i<=10;$i++){
+        $products[$i]=$products[0];
+        $products[$i]['namevi']=$faker->name;
+        $products[$i]['id']=$faker->randomDigit;
+        $products[$i]['descvi']=$faker->text;
+        $products[$i]['regular_price']=$faker->randomNumber(6, true);
+    }
+   
+    if (!empty($products)) { ?>
         <div class="">
             <?php foreach ($products as $v_product) {
                 $v_product['name'] = $v_product['name' . $lang];

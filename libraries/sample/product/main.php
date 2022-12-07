@@ -50,11 +50,10 @@
                     <div class="text-secondary">Đăng ngày: <?= date('d/m/Y', $params['product']['date_created']) ?></div>
                 </div>
             <?php } ?>
-            <div class="d-flex justify-content-between w-100">
-                <div class="product-label ">
-
+            <div class="d-flex justify-content-between align-items-center w-100">
+                <div class="product-label pr-2">
                     <h3 class="product-name mt-0 mb-1">
-                        <a class="d-block <?= $params['product']['clsSmall'] ?> font-weight-500 text-decoration-none text-primary-hover text-uppercase transition" <?= $params['product']['target'] ?> href="<?= $params['product']['href'] ?>" data-type="<?= $params['product']['sector']['type'] ?>" data-id="<?= $params['product']['id'] ?>" title="<?= $params['product']['name'] ?>"><?= $params['product']['name'] ?></a>
+                        <a class="d-block <?= $params['product']['clsSmall'] ?> font-weight-bold text-decoration-none text-primary-hover text-uppercase transition" <?= $params['product']['target'] ?> href="<?= $params['product']['href'] ?>" data-type="<?= $params['product']['sector']['type'] ?>" data-id="<?= $params['product']['id'] ?>" title="<?= $params['product']['name'] ?>"><?= $params['product']['name'] ?></a>
                     </h3>
                     <div class="product-desc"><?= $params['product']['desc']?></div>
                 </div>

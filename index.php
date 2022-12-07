@@ -12,6 +12,7 @@ define('THUMBS', 'thumbs');
 require_once LIBRARIES . "config.php";
 require_once LIBRARIES . 'autoload.php';
 require_once LIBRARIES . "api-routes.php";
+require_once LIBRARIES.'Faker/src/autoload.php';
 new AutoLoad();
 $injection = new AntiSQLInjection();
 $d = new PDODb($config['database']);
@@ -30,6 +31,7 @@ $restApi = new RestApi();
 $css = new CssMinify($config['website']['debug-css'], $func);
 $js = new JsMinify($config['website']['debug-js'], $func);
 $_REQUEST['sectorType'] = $config['website']['sectors'];
+$faker = Faker\Factory::create();
 
     // unset($_SESSION[$loginMember]);
 
