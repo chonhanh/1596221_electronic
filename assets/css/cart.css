@@ -1,0 +1,29 @@
+.title-cart { font-weight: 500; font-size: 16px; color: #242424; margin-bottom: 0.75rem; }
+.input-cart input, .input-cart textarea, .input-cart select { background-color: #eef1f3; border-color: #eef1f3; }
+.input-cart textarea { resize: none; height: 150px; }
+.sticky-cart { position: -webkit-sticky; position: sticky; top: 70px; z-index: 11; }
+.money-procart { position: -webkit-sticky; position: sticky; top: 0px; z-index: 10; }
+.payments-cart { text-align: left; margin-bottom: 0.5rem; min-height: auto; }
+.payments-cart:last-child { margin-bottom: 0px; }
+.payments-cart input { top: calc(50% - 1.25rem/2); }
+.payments-label { cursor: pointer; background: #e9ecef; display: block; padding: 0.6rem 1rem 0.5rem 1rem !important; border-radius: 3px; font-weight: 500; margin-bottom: 0px; color: #313131; }
+.payments-label::before, .payments-label::after { top: calc(50% - 0.75rem/2); }
+.payments-label.active { background: #ff9c00; color: #ffffff !important; }
+.payments-info { opacity: 0; visibility: hidden; height: 0px; overflow: hidden; background: #e8e2e2; border-radius: 5px; }
+.payments-info p { margin-bottom: 1em; }
+.payments-info.active { padding: 10px 15px; margin-top: 5px; opacity: 1; visibility: visible; height: auto; }
+.group-cart:last-child { margin-bottom: 0px !important; }
+.image-procart { margin-right: 10px; }
+.desc-procart { width: calc(100% - 80px); }
+.name-procart { line-height: 1.4; display: inline-block; vertical-align: top; }
+.quantity-counter-procart { border: 1px solid #dfdfdf; margin: 0px auto; width: 100%; max-width: 85px; height: 30px; line-height: normal; text-align: center; border-radius: 3px; }
+.qty-procart { width: 40%; box-sizing: border-box; border: 0px; border-right: 1px solid #dfdfdf; border-left: 1px solid #dfdfdf; outline: none; box-shadow: none; padding: 0px; font-size: 13px; color: #333; text-align: center; }
+.counter-procart { background-color: transparent; border: 0px; width: 30%; color: #333; outline: none; cursor: pointer; font-size: 18px; }
+.counter-procart:hover, .counter-procart:focus { color: var(--color-red); }
+.counter-procart:disabled, .counter-procart:disabled:hover { color: #ccc; cursor: not-allowed; }
+.counter-procart-minus { line-height: 28px; }
+.counter-procart-plus { line-height: 28px; }
+.btn-cart { font-size: 15px; text-transform: capitalize; }
+.table-order td, .table-order th { padding: 1.25rem .75rem 1rem .75rem; }
+.table-order thead tr th { min-width: 130px; font-weight: 400; }
+.table-order tbody { font-size: 13px; }

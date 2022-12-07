@@ -1,0 +1,14 @@
+caches/
+thumbs/
+mysql/
+logs/
+libraries/database/
+admin/elfinder/
+admin/ckfinder7/
+admin/ckfinder8/
+admin/ckeditor/
+shop/admin/ckfinder7/
+shop/admin/ckfinder8/
+shop/admin/ckeditor/
+shop/admin/elfinder/
+**/caches

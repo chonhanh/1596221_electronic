@@ -1,0 +1,5 @@
+RewriteEngine on
+Options -Indexes
+DirectoryIndex index.php
+
+#RewriteRule ^admin/api/(.*)$ ../admin/api/$1 [L]

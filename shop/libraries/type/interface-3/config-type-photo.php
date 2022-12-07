@@ -1,0 +1,48 @@
+<?php
+/* Logo */
+$nametype = "logo";
+$config['photo']['photo_static'][$nametype]['title_main'] = "Logo";
+$config['photo']['photo_static'][$nametype]['check'] = array("hienthi" => "Hiển thị");
+$config['photo']['photo_static'][$nametype]['images'] = true;
+$config['photo']['photo_static'][$nametype]['width'] = 125;
+$config['photo']['photo_static'][$nametype]['height'] = 60;
+$config['photo']['photo_static'][$nametype]['thumb'] = '125x60x2';
+$config['photo']['photo_static'][$nametype]['img_type'] = '.jpg|.gif|.png|.jpeg|.gif';
+
+/* Favicon */
+$nametype = "favicon";
+$config['photo']['photo_static'][$nametype]['title_main'] = "Favicon";
+$config['photo']['photo_static'][$nametype]['check'] = array("hienthi" => "Hiển thị");
+$config['photo']['photo_static'][$nametype]['images'] = true;
+$config['photo']['photo_static'][$nametype]['width'] = 48;
+$config['photo']['photo_static'][$nametype]['height'] = 48;
+$config['photo']['photo_static'][$nametype]['thumb'] = '48x48x2';
+$config['photo']['photo_static'][$nametype]['img_type'] = '.jpg|.gif|.png|.jpeg|.gif';
+
+/* Slideshow */
+$nametype = "slideshow";
+$config['photo']['man_photo'][$nametype]['title_main_photo'] = "Slideshow";
+$config['photo']['man_photo'][$nametype]['check_photo'] = array("hienthi" => "Hiển thị");
+$config['photo']['man_photo'][$nametype]['number_photo'] = 2;
+$config['photo']['man_photo'][$nametype]['images_photo'] = true;
+$config['photo']['man_photo'][$nametype]['avatar_photo'] = true;
+$config['photo']['man_photo'][$nametype]['link_photo'] = true;
+$config['photo']['man_photo'][$nametype]['name_photo'] = true;
+$config['photo']['man_photo'][$nametype]['width_photo'] = 1366;
+$config['photo']['man_photo'][$nametype]['height_photo'] = 500;
+$config['photo']['man_photo'][$nametype]['thumb_photo'] = '200x150x2';
+$config['photo']['man_photo'][$nametype]['img_type_photo'] = '.jpg|.gif|.png|.jpeg|.gif';
+
+/* Mạng xã hội */
+$nametype = "social";
+$config['photo']['man_photo'][$nametype]['title_main_photo'] = "Mạng xã hội";
+$config['photo']['man_photo'][$nametype]['check_photo'] = array("hienthi" => "Hiển thị");
+$config['photo']['man_photo'][$nametype]['number_photo'] = 2;
+$config['photo']['man_photo'][$nametype]['images_photo'] = true;
+$config['photo']['man_photo'][$nametype]['avatar_photo'] = true;
+$config['photo']['man_photo'][$nametype]['link_photo'] = true;
+$config['photo']['man_photo'][$nametype]['name_photo'] = true;
+$config['photo']['man_photo'][$nametype]['width_photo'] = 45;
+$config['photo']['man_photo'][$nametype]['height_photo'] = 45;
+$config['photo']['man_photo'][$nametype]['thumb_photo'] = '45x45x2';
+$config['photo']['man_photo'][$nametype]['img_type_photo'] = '.jpg|.gif|.png|.jpeg|.gif';

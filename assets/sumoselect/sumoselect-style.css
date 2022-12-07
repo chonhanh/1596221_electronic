@@ -1,0 +1,10 @@
+.SumoSelect{width:100%;}
+.SumoSelect .select-all{height:auto!important;padding:8px 0px 8px 35px!important;}
+.SumoSelect label{margin-bottom:0px;font-weight:normal!important;display:block;}
+.SumoSelect > .CaptionCont{border:1px solid #ced4da;padding:.54rem .75rem;height:calc(1.5em + .75rem + 7px);border-radius:4px;}
+.SumoSelect > .CaptionCont > span.placeholder{color:#495057;font-style:unset;}
+.SumoSelect > .CaptionCont > label > i{background-size:10px;opacity:.6;}
+.SumoSelect:focus > .CaptionCont,.SumoSelect:hover > .CaptionCont,.SumoSelect.open > .CaptionCont{box-shadow:0 0 2px #80bdff;border-color:#80bdff;}
+.SumoSelect > .optWrapper.multiple > .options li.opt span i,.SumoSelect .select-all > span i{top:-1px;}
+.SumoSelect.open .search-txt{padding:.54rem .75rem;}
+.SumoSelect.open > .optWrapper{top:45px;}
